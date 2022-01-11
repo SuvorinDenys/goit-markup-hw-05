@@ -69,6 +69,7 @@ img {
 .logo-header:focus,
 .logo-header:hover {
   text-decoration: underline var(--brand-color);
+  transition: text-decoration var(--animation-time) var(--cubic);
 }
 .web-header {
   color: var(--brand-color);
@@ -118,6 +119,7 @@ img {
 .header-list a:hover,
 .header-list a:focus {
   color: var(--brand-color);
+  transition: color var(--animation-time) var(--cubic);
 }
 .header-list .current {
   color: var(--brand-color);
@@ -160,6 +162,7 @@ img {
 .header-contatcs-list a:hover,
 .header-contatcs-list a:focus {
   color: var(--brand-color);
+  transition: color var(--animation-time) var(--cubic);
 }
 .header-contatcs-list a:not(:last-child) {
   margin-right: 30px;
