@@ -12,7 +12,7 @@
   --icons-color: #afb1b8;
   --animation-time: 250ms;
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
-  --header-height: 80px
+  --header-height: 80px;
 }
 
 /* Reset Styles */
@@ -262,8 +262,8 @@ img {
   transition: transform var(--animation-time) var(--cubic);
   border-radius: 4px;
   background-color: var(--background-color-second);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   cursor: initial;
 }
 .close-btn {
@@ -347,20 +347,31 @@ img {
 .our-work-images-list li:not(:last-child) {
   margin-right: 30px;
 }
-.work-description {
+.work-thumb {
+  position: relative;
+}
+.description-block {
   position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+}
+.work-description {
   width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
   color: var(--background-color-second);
   background-color: rgba(47, 48, 58, 0.8);
   font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 /* End of Our Work */
 
@@ -411,7 +422,7 @@ text-transform: uppercase
   justify-content: center;
   align-items: center;
   transition: fill var(--animation-time) var(--cubic),
-  background-color var(--animation-time) var(--cubic);
+    background-color var(--animation-time) var(--cubic);
 }
 .links a:focus,
 .links a:hover {
@@ -468,7 +479,7 @@ text-transform: uppercase
   justify-content: center;
   align-items: center;
   transition: fill var(--animation-time) var(--cubic),
-  border var(--animation-time) var(--cubic);
+    border var(--animation-time) var(--cubic);
 }
 .clients-items a:focus,
 .clients-items a:hover {
@@ -613,8 +624,8 @@ text-transform: uppercase
   letter-spacing: 0.03em;
   padding: 6px 22px;
   transition: color var(--animation-time) var(--cubic),
-  background-color var(--animation-time) var(--cubic),
-  box-shadow var(--animation-time) var(--cubic);
+    background-color var(--animation-time) var(--cubic),
+    box-shadow var(--animation-time) var(--cubic);
 }
 .filter-buttons:focus,
 .filter-buttons:hover {
