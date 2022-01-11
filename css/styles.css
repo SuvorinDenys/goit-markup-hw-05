@@ -283,7 +283,7 @@ img {
 /* End of Modal Window */
 /* End of Hero Section */
 
-/* Features & Our Work */
+/* Features */
 .second-background-color {
   background-color: var(--background-color-second);
 }
@@ -328,6 +328,9 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+/* End of Features */
+
+/* Our Work */
 .our-work {
   color: var(--secondary-color);
   font-weight: 700;
@@ -344,7 +347,22 @@ img {
 .our-work-images-list li:not(:last-child) {
   margin-right: 30px;
 }
-/* End of Features & Our Work */
+.work-description {
+  position: absolute;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: var(--background-color-second);
+  background-color: rgba(47, 48, 58, 0.8);
+  font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase
+}
+/* End of Our Work */
 
 /* Our Team*/
 .our-team-section {
