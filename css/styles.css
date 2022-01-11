@@ -423,6 +423,7 @@ img {
   display: inline-block;
   margin-bottom: 20px;
   margin-left: 15px;
+  transition: text-decoration var(--animation-time) var(--cubic);
 }
 .logo-footer:focus,
 .logo-footer:hover {
@@ -468,6 +469,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  transition: color var(--animation-time) var(--cubic);
 }
 .contacts-mail-tel:hover,
 .contacts-mail-tel:focus {
@@ -502,6 +504,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color var(--animation-time) var(--cubic);
 }
 .add-to-us-links a:hover,
 .add-to-us-links a:focus {
@@ -541,6 +544,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px;
+  transition: color var(--animation-time) var(--cubic),
+  background-color var(--animation-time) var(--cubic),
+  box-shadow var(--animation-time) var(--cubic);
 }
 .filter-buttons:focus,
 .filter-buttons:hover {
